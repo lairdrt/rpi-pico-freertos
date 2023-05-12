@@ -23,3 +23,15 @@ After the development platform has booted...
 `sudo apt install cmake`<br>
 `sudo apt install gcc-arm-none-eabi`<br>
 `sudo apt install build-essential`
+
+### Install Baseline Repositories
+
+`mkdir freertos-pico`<br>
+`cd freertos-pico`<br>
+`git clone https://github.com/RaspberryPi/pico-sdk --recurse-submodules`<br>
+`git clone -b smp https://github.com/FreeRTOS/FreeRTOS-Kernel --recurse-submodules`
+
+### Set Paths for Build Tools
+
+`export PICO_SDK_PATH=$PWD/pico-sdk`<br>
+`export FREERTOS_KERNEL_PATH=$PWD/FreeRTOS-Kernel`<br>
