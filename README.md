@@ -37,7 +37,9 @@ After the development platform has booted...
 `export PICO_SDK_PATH=$PWD/pico-sdk`<br>
 `export FREERTOS_KERNEL_PATH=$PWD/FreeRTOS-Kernel`<br>
 
-## Make Application Directory
+### Make Application Directory
 
 `mkdir appdir`<br>
 `cd appdir`
+
+## Ready to Program
