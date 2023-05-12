@@ -53,4 +53,12 @@ At this point, you should all the Pico C/C++ SDK and FreeRTOS libraries installe
 This should result in an object file, called `myapp.uf2`, that can be downloaded to the Raspberry Pi Pico.
 
 ## Download the Object File and Run
+Plug in the USB cable from the Pico to the Raspberry Pi.
+
+### Using Deskatop
 When using the Raspberry Pi OS desktop, plugging in the Pico to the Raspberry Pi causes the Pico's flash to be mounted as a drive. Use the File Manager to copy the `myapp.uf2` file to the Pico's file space. This should cause the file to be loaded into flash and then execute.
+
+### Using Bash Shell
+Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automatically reboot and run the application. For example, if your drive location is D:, here is how to copy from the command line:
+
+$ cp blink.uf2 /d/
