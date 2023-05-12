@@ -43,3 +43,7 @@ After the development platform has booted...
 `cd appdir`
 
 ## Ready to Program
+At this point, you should all the Pico C/C++ SDK and FreeRTOS libraries installed in the directory above the application directory, and the path environment variables set corretcly. Assuming, for example, that your main file is called `main.c`, located in your `appdir` directory, and that you have navigated to that directory.
+
+`mkdir build`<br>
+`cd build`
