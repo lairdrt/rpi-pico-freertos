@@ -61,4 +61,4 @@ When using the Raspberry Pi OS desktop, plugging in the Pico to the Raspberry Pi
 ### Using Bash Shell
 Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automatically reboot and run the application. For example, if your drive location is D:, theh issue this command:
 
-`cp blink.uf2 /d/`
+`cp myapp.uf2 /d/`
