@@ -62,6 +62,6 @@ Hold down the `BOOTSEL` button on the Pico, plug in the USB cable from the Pico 
 Plugging in the Pico to the development platform causes the Pico's flash to be mounted as a drive. Use the File Manager to copy the `myapp.uf2` file to the Pico's file space. This should cause the file to be loaded into flash and then executed.
 
 ### Using Bash Shell
-Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automatically reboot and run the application. For example, if your drive location is D:, then issue this command:
+Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automatically reboot and run the application. For example, if your drive location is `/media/myuser/RPI-RP2`, then issue this command:
 
-`cp myapp.uf2 /d/`
+`cp myapp.uf2 /media/myuser/RPI-RP2`
