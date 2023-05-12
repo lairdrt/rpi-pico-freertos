@@ -11,8 +11,8 @@ Assuming the use of a Linux development environment. For this exercise, the Rasp
 ## Software Installation
 After the development platform has booted, first item is to updated the OS:
 
-`$ sudo apt -y update`<br>
-`$ sudo apt -y upgrade`<br>
-`$ sudo apt -y autoremove`<br>
-`$ cat /etc/os-release`
+`sudo apt -y update`<br>
+`sudo apt -y upgrade`<br>
+`sudo apt -y autoremove`<br>
+`cat /etc/os-release`
 
