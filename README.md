@@ -43,7 +43,7 @@ After the development platform has booted...
 `cd appdir`
 
 ### Get the Template CMake File and FreeRTOS Config File
-Copy the `CMakeLists.txt` file and the `FreeRTOSConfig.h` files from this repository into your main application directory (`appdir`).
+Copy the `CMakeLists.txt` file and the `FreeRTOSConfig.h` file from this repository into your main application directory (`appdir`).
 
 ## Ready to Program
 At this point, you should all the Pico C/C++ SDK and FreeRTOS libraries installed in the directory above the application directory, and the path environment variables set corretcly. Assuming, for example, that your main file is called `myapp.c`, located in your `appdir` directory, and that you have navigated to that directory.
