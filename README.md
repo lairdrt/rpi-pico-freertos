@@ -26,7 +26,7 @@ After the development platform has booted...
 
 ### Install Baseline Repositories
 
-`cd ~`
+`cd ~`<br>
 `mkdir freertos-pico`<br>
 `cd freertos-pico`<br>
 `git clone https://github.com/RaspberryPi/pico-sdk --recurse-submodules`<br>
