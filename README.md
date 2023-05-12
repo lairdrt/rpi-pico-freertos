@@ -59,6 +59,6 @@ Plug in the USB cable from the Pico to the Raspberry Pi.
 When using the Raspberry Pi OS desktop, plugging in the Pico to the Raspberry Pi causes the Pico's flash to be mounted as a drive. Use the File Manager to copy the `myapp.uf2` file to the Pico's file space. This should cause the file to be loaded into flash and then execute.
 
 ### Using Bash Shell
-Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automatically reboot and run the application. For example, if your drive location is D:, theh issue this command:
+Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automatically reboot and run the application. For example, if your drive location is D:, then issue this command:
 
 `cp myapp.uf2 /d/`
