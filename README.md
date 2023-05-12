@@ -1,2 +1,1 @@
-# rpi-pico-freertos
-Raspberry Pi Pico FreeRTOS application template (C/C++)
+# Raspberry Pi Pico FreeRTOS application template (C/C++)
