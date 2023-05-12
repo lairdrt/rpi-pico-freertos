@@ -42,7 +42,7 @@ After the development platform has booted...
 `mkdir appdir`<br>
 `cd appdir`
 
-## Get the Template CMake File and FreeRTOS Config File
+### Get the Template CMake File and FreeRTOS Config File
 Copy the `CMakeLists.txt` file and the `FreeRTOSConfig.h` files from this repository into your main application directory (`appdir`).
 
 ## Ready to Program
