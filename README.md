@@ -50,13 +50,13 @@ At this point, you should all the Pico C/C++ SDK and FreeRTOS libraries installe
 `cmake ..`<br>
 `make`
 
-This should result in an object file, called `myapp.uf2`, that can be downloaded to the Raspberry Pi Pico.
+This should result in an object file, called `myapp.uf2`, that can be downloaded to the Pico.
 
 ## Download the Object File and Run
-Plug in the USB cable from the Pico to the Raspberry Pi.
+Hold down the `BOOTSEL` button on the Pico, plug in the USB cable from the Pico to the development platform, and then release the `BOOTSEL` button. The Pico should appear as a mass storage device on the development platform.
 
-### Using Deskatop
-When using the Raspberry Pi OS desktop, plugging in the Pico to the Raspberry Pi causes the Pico's flash to be mounted as a drive. Use the File Manager to copy the `myapp.uf2` file to the Pico's file space. This should cause the file to be loaded into flash and then execute.
+### Using Desktop
+Plugging in the Pico to the development platform causes the Pico's flash to be mounted as a drive. Use the File Manager to copy the `myapp.uf2` file to the Pico's file space. This should cause the file to be loaded into flash and then executed.
 
 ### Using Bash Shell
 Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automatically reboot and run the application. For example, if your drive location is D:, then issue this command:
