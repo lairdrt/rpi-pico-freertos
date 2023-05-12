@@ -43,9 +43,14 @@ After the development platform has booted...
 `cd appdir`
 
 ## Ready to Program
-At this point, you should all the Pico C/C++ SDK and FreeRTOS libraries installed in the directory above the application directory, and the path environment variables set corretcly. Assuming, for example, that your main file is called `main.c`, located in your `appdir` directory, and that you have navigated to that directory.
+At this point, you should all the Pico C/C++ SDK and FreeRTOS libraries installed in the directory above the application directory, and the path environment variables set corretcly. Assuming, for example, that your main file is called `myapp.c`, located in your `appdir` directory, and that you have navigated to that directory.
 
 `mkdir build`<br>
 `cd build`<br>
 `cmake ..`<br>
 `make`
+
+This should result in an object file, called `myapp.uf2`, that can be downloaded to the Raspberry Pi Pico.
+
+## Download the Object File and Run
+When using the Raspberry Pi OS desktop, plugging in the Pico to the Raspberry Pi causes the Pico's flash to be mounted as a drive. Use the File Manager to copy the `myapp.uf2` file to the Pico's file space. This should cause the file to be loaded into flash and then execute.
