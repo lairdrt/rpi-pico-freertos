@@ -4,9 +4,11 @@ These instructions describe how to setup the build environment for creating C/C+
 The Pico is based upon the Raspberry Pi RP2040, which features a dual-core [Arm Cortex-M0+](https://developer.arm.com/Processors/Cortex-M0-Plus) processor with 264kB internal RAM, 2MB on-board QSPI flash, and support for up to 16MB of off-chip flash.
 
 Adapted from:
+
 [Using FreeRTOS with the Raspberry Pi Pico](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico).
 
-See also
+See also:
+
 [Using FreeRTOS with the Raspberry Pi Pico: Part 2](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico-part-2)
 
 [Using FreeRTOS with the Raspberry Pi Pico: Part 3](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico-part-3)
