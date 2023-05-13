@@ -1,5 +1,5 @@
 # Raspberry Pi Pico FreeRTOS Application Template
-These instructions describe how to setup the build environment for creating C/C++ FrreRTOS applications for the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/). The Pico H (2021) was used as the target platform.
+These instructions describe how to setup the build environment for creating C/C++ FreeRTOS applications for the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/). The Pico H (2021) was used as the target platform.
 
 The Pico is based upon the Raspberry Pi RP2040, which features a dual-core [Arm Cortex-M0+](https://developer.arm.com/Processors/Cortex-M0-Plus) processor with 264kB internal RAM, 2MB on-board QSPI flash, and support for up to 16MB of off-chip flash.
 
