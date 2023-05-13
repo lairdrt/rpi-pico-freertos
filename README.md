@@ -68,7 +68,7 @@ You'll have to change those values in `CMakeLists.txt` if that is **not** the ca
 ## Ready to Program
 At this point, you should have all of the Pico C/C++ SDK and FreeRTOS libraries installed in the directory above the application directory, and the path environment variables set corretcly.
 
-Assume that you have created your application program (e.g., `myapp.c`) within the `appdir` directory, and that you have navigated to that directory. You would build the executable file using these commands:
+Assume that you have created your application program (e.g., `main.c`) within the `appdir` directory, and that you have navigated to that directory. You would build the executable file using these commands:
 
 `mkdir build`<br>
 `cd build`<br>
