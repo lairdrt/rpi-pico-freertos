@@ -107,6 +107,13 @@ The [coreJSON](https://github.com/FreeRTOS/coreJSON) library is not included in 
 2. Copy the [core_json.h](https://github.com/FreeRTOS/coreJSON/blob/8d216b5876ba6953e8b60a20d32eae62992d09fe/source/include/core_json.h) file to the `~/freertos-pico/FreeRTOS-Kernel/include` directory.
 
 ### Modify the Target CMake File
+The 'CMakeLists.txt' file that you ceated above references the target platform `CMakeLists.txt` file here:
+
+`include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)`
+
+That file in turn includes a `library.cmake` file located here:
+
+`~/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040`
 
 ## Tools
 To view serial data over the USB/UART port of the development platform use GTKTerm:
