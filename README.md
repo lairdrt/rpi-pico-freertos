@@ -55,8 +55,15 @@ At this point, you should all the Pico C/C++ SDK and FreeRTOS libraries installe
 
 This should result in an object file, called `myapp.uf2`, that can be downloaded to the Pico.
 
-## Download the Object File and Run
-Hold down the `BOOTSEL` button on the Pico, plug in the USB cable from the Pico to the development platform, and then release the `BOOTSEL` button. The Pico should appear as a mass storage device on the development platform.
+## Reboot the Pico
+To reboot the Pico and mount its flash as a drive:
+1. Hold down the `BOOTSEL` button on the Pico.
+2. Plug in the USB cable from the Pico to the development platform.
+3. Release the `BOOTSEL` button.
+4. The Pico should appear as a mass storage device on the development platform.
+
+## Download and Run the Program
+You'll download and run the program differently depending upon whether or not you're using a desktop file manager.
 
 ### Using Desktop
 Plugging in the Pico to the development platform causes the Pico's flash to be mounted as a drive. Use the File Manager to copy the `myapp.uf2` file to the Pico's file space. This should cause the file to be loaded into flash and then executed.
