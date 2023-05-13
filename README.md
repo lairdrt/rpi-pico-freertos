@@ -1,12 +1,24 @@
 # Raspberry Pi Pico FreeRTOS Application Template
-Adapted from [Using FreeRTOS with the Raspberry Pi Pico](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico).
-
-Describes how to setup the build environment for creating C/C++ applications for the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/). The Pico H (2021) was used as the target platform.
+These instructions describe how to setup the build environment for creating C/C++ applications for the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/). The Pico H (2021) was used as the target platform.
 
 The Pico is based upon the Raspberry Pi RP2040, which features a dual-core [Arm Cortex-M0+](https://developer.arm.com/Processors/Cortex-M0-Plus) processor with 264kB internal RAM, 2MB on-board QSPI flash, and support for up to 16MB of off-chip flash.
 
+Adapted from:
+[Using FreeRTOS with the Raspberry Pi Pico](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico).
+
+See also
+[Using FreeRTOS with the Raspberry Pi Pico: Part 2](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico-part-2)
+
+[Using FreeRTOS with the Raspberry Pi Pico: Part 3](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico-part-3)
+
+[Using FreeRTOS with the Raspberry Pi Pico: Part 4](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico-part-4)
+
+[Using FreeRTOS with the Raspberry Pi Pico and AWS IoT ExpressLink: Part 5](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico-and-aws-iot-expresslink-part-5)
+
+[Using FreeRTOS with the Raspberry Pi Pico and AWS IoT ExpressLink: Part 6]()
+
 ## Development Platform
-Assuming the use of a Linux development environment. For this exercise, the Raspberry Pi 4 with 8GB RAM was used running Raspberry Pi OS, Debian GNU/Linux 11 (bullseye), with a 128GB flash card.
+https://embeddedcomputing.com/technology/iot/device-management/using-freertos-with-the-raspberry-pi-pico-and-aws-iot-expresslink-part-6Assuming the use of a Linux development environment. For this exercise, the Raspberry Pi 4 with 8GB RAM was used running Raspberry Pi OS, Debian GNU/Linux 11 (bullseye), with a 128GB flash card.
 
 ## Software Installation
 After the development platform has booted...
