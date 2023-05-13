@@ -97,6 +97,9 @@ Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automa
 
 `cp myapp.uf2 /media/myuser/RPI-RP2`
 
+## Moving Forward
+It's now a matter of modifying your program to meet your application requirememnts, and then rebuilding your application using `CMake` and `make`, perhaps adding additional libraries as dependencies.
+
 ## Tools
 To view serial data over the USB/UART port of the development platform use GTKTerm:
 
@@ -107,6 +110,3 @@ Finding the Pico's mounted USB port is non-trivial. Try:
 `dmesg | grep "tty"`
 
 Possible values include `/dev/ttyACM0` at 9600 baud.
-
-## Moving Forward
-It's now a matter of modifying your program to meet your application requirememnts, and then rebuilding your application using `CMake` and `make`, perhaps adding additional libraries as dependencies.
