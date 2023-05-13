@@ -46,14 +46,16 @@ After the development platform has booted...
 Copy the `CMakeLists.txt` file and the `FreeRTOSConfig.h` file from this repository into your main application directory (`appdir`).
 
 ## Ready to Program
-At this point, you should have all of the Pico C/C++ SDK and FreeRTOS libraries installed in the directory above the application directory, and the path environment variables set corretcly. Assuming, for example, that your main file is called `myapp.c`, located in your `appdir` directory, and that you have navigated to that directory.
+At this point, you should have all of the Pico C/C++ SDK and FreeRTOS libraries installed in the directory above the application directory, and the path environment variables set corretcly.
+
+Assume that you have created your application program (e.g., `myapp.c`) within the `appdir` directory, and that you have navigated to that directory. You would build the executable file using these commands:
 
 `mkdir build`<br>
 `cd build`<br>
 `cmake ..`<br>
 `make`
 
-This should result in an object file, called `myapp.uf2`, that can be downloaded to the Pico.
+This should result in an executable file, called `myapp.uf2`, that can be downloaded to the Pico.
 
 ## Reboot the Pico
 To reboot the Pico and mount its flash as a drive:
