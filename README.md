@@ -129,6 +129,8 @@ target_sources(FreeRTOS-Kernel-Core INTERFACE
         ${FREERTOS_KERNEL_PATH}/core_json.c
         )     
 ```
+Re-create your build directory, and then re-run both `cmake` and `make` to include the added library.
+
 ## Tools
 To view serial data over the USB/UART port of the development platform use GTKTerm:
 
