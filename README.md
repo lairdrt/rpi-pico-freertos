@@ -17,10 +17,10 @@ See also:
 
 [Using FreeRTOS with the Raspberry Pi Pico and AWS IoT ExpressLink: Part 5](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico-and-aws-iot-expresslink-part-5)
 
-[Using FreeRTOS with the Raspberry Pi Pico and AWS IoT ExpressLink: Part 6]()
+[Using FreeRTOS with the Raspberry Pi Pico and AWS IoT ExpressLink: Part 6](https://embeddedcomputing.com/technology/iot/device-management/using-freertos-with-the-raspberry-pi-pico-and-aws-iot-expresslink-part-6)
 
 ## Development Platform
-https://embeddedcomputing.com/technology/iot/device-management/using-freertos-with-the-raspberry-pi-pico-and-aws-iot-expresslink-part-6Assuming the use of a Linux development environment. For this exercise, the Raspberry Pi 4 with 8GB RAM was used running Raspberry Pi OS, Debian GNU/Linux 11 (bullseye), with a 128GB flash card.
+Assuming the use of a Linux development environment. For this exercise, the Raspberry Pi 4 with 8GB RAM was used running Raspberry Pi OS, Debian GNU/Linux 11 (bullseye), with a 128GB flash card.
 
 ## Software Installation
 After the development platform has booted...
