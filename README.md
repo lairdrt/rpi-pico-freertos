@@ -21,6 +21,8 @@ See also:
 
 [Using FreeRTOS with the Raspberry Pi Pico and AWS IoT ExpressLink: Part 6](https://embeddedcomputing.com/technology/iot/device-management/using-freertos-with-the-raspberry-pi-pico-and-aws-iot-expresslink-part-6)
 
+[Simple Multicore Core to Core Communication Using FreeRTOS Message Buffers](https://www.freertos.org/2020/02/simple-multicore-core-to-core-communication-using-freertos-message-buffers.html)
+
 ## Development Platform
 Assuming the use of a Linux development environment. For this exercise, the Raspberry Pi 4 with 8GB RAM was used running Raspberry Pi OS, Debian GNU/Linux 11 (bullseye), with a 128GB flash card.
 
