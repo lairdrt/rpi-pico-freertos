@@ -103,8 +103,8 @@ Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automa
 The [coreJSON](https://github.com/FreeRTOS/coreJSON) library is not included in the standard distrubution of FreeRTOS (for the Pico). So, you have to add in manually.
 
 ### Add the Source Files
-1. Copy the [core_json.c(https://github.com/FreeRTOS/coreJSON/blob/8d216b5876ba6953e8b60a20d32eae62992d09fe/source/core_json.c) file to the `~/freertos-pico/FreeRTOS-Kernel` directory.
-2. Copy the [core_json.h[() file to the `~/freertos-pico/FreeRTOS-Kernel/include` directory.
+1. Copy the [core_json.c](https://github.com/FreeRTOS/coreJSON/blob/8d216b5876ba6953e8b60a20d32eae62992d09fe/source/core_json.c) file to the `~/freertos-pico/FreeRTOS-Kernel` directory.
+2. Copy the [core_json.h](https://github.com/FreeRTOS/coreJSON/blob/8d216b5876ba6953e8b60a20d32eae62992d09fe/source/include/core_json.h) file to the `~/freertos-pico/FreeRTOS-Kernel/include` directory.
 
 ### Modify the Target CMake File
 
