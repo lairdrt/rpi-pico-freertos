@@ -113,7 +113,7 @@ The `CMakeLists.txt` file that you ceated above references the target platform `
 
 That file in turn includes a `library.cmake` file located here:
 
-`~/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040`
+`include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/library.cmake)`
 
 ## Tools
 To view serial data over the USB/UART port of the development platform use GTKTerm:
