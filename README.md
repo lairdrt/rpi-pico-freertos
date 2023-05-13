@@ -5,7 +5,9 @@ The Pico is based upon the Raspberry Pi RP2040, which features a dual-core [Arm 
 
 Adapted from:
 
-[Using FreeRTOS with the Raspberry Pi Pico](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico)
+[Using FreeRTOS with the Raspberry Pi Pico: Part 1](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico)
+
+The files in the repository are from Part 1 of the tutorial.
 
 See also:
 
