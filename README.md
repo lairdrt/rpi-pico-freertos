@@ -99,8 +99,14 @@ Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automa
 
 `cp myapp.uf2 /media/myuser/RPI-RP2`
 
-## Moving Forward
-It's now a matter of modifying your program to meet your application requirememnts, and then rebuilding your application using `CMake` and `make`, perhaps adding additional libraries as dependencies.
+## Using coreJSON Library
+The [coreJSON](https://github.com/FreeRTOS/coreJSON) library is not included in the standard distrubution of FreeRTOS (for the Pico). So, you have to add in manually.
+
+### Add the Source Files
+1. Copy the [core_json.c(https://github.com/FreeRTOS/coreJSON/blob/8d216b5876ba6953e8b60a20d32eae62992d09fe/source/core_json.c) file to the `~/freertos-pico/FreeRTOS-Kernel` directory.
+2. Copy the [core_json.h[() file to the `~/freertos-pico/FreeRTOS-Kernel/include` directory.
+
+### Modify the Target CMake File
 
 ## Tools
 To view serial data over the USB/UART port of the development platform use GTKTerm:
