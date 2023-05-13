@@ -80,3 +80,6 @@ Plugging in the Pico to the development platform causes the Pico's flash to be m
 Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automatically reboot and run the application. For example, if the Pico's mounted flash drive location is `/media/myuser/RPI-RP2`, then issue this command:
 
 `cp myapp.uf2 /media/myuser/RPI-RP2`
+
+## Moving Forward
+It's now a matter of modifying your program to meet your application requirememnts, and then rebuilding your application using CMake and make, perhaps adding additional libraries as dependencies.
