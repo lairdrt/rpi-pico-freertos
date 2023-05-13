@@ -100,7 +100,7 @@ Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automa
 ## Tools
 To view serial data over the USB/UART port of the development platform use GTKTerm:
 
-`sudo apt-get install gtkterm`
+`sudo apt install gtkterm`
 
 ## Moving Forward
 It's now a matter of modifying your program to meet your application requirememnts, and then rebuilding your application using `CMake` and `make`, perhaps adding additional libraries as dependencies.
