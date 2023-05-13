@@ -102,5 +102,11 @@ To view serial data over the USB/UART port of the development platform use GTKTe
 
 `sudo apt install gtkterm`
 
+Finding the Pico's mounted USB port is non-trivial. Try:
+
+`dmesg | grep "tty"`
+
+Possible values include `/dev/ttyACM0` at 9600 baud.
+
 ## Moving Forward
 It's now a matter of modifying your program to meet your application requirememnts, and then rebuilding your application using `CMake` and `make`, perhaps adding additional libraries as dependencies.
