@@ -82,4 +82,4 @@ Copy the `myapp.uf2` file to the Pico's drive location, and the Pico will automa
 `cp myapp.uf2 /media/myuser/RPI-RP2`
 
 ## Moving Forward
-It's now a matter of modifying your program to meet your application requirememnts, and then rebuilding your application using CMake and make, perhaps adding additional libraries as dependencies.
+It's now a matter of modifying your program to meet your application requirememnts, and then rebuilding your application using `CMake` and `make`, perhaps adding additional libraries as dependencies.
