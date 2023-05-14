@@ -109,11 +109,11 @@ The [coreJSON](https://github.com/FreeRTOS/coreJSON) library is not included in 
 ### Modify the Target CMake Library File
 The `CMakeLists.txt` file that you ceated above references the target platform `CMakeLists.txt` file here:
 
-`~/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/CMakeLists.txt)`
+`~/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/CMakeLists.txt`
 
 That file in turn includes a `library.cmake` file located here:
 
-`~/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/library.cmake)`
+`~/freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/library.cmake`
 
 Modify the `library.cmake` file to include `core_json.c` like:
 ```
